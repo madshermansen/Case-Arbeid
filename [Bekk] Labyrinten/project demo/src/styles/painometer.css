@@ -1,0 +1,6 @@
+.ubehagskala {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  /* font-size: 25px !important; */
+}

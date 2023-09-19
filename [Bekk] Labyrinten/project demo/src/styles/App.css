@@ -1,0 +1,91 @@
+* {
+  cursor: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  text-align: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: black;
+}
+
+.infoboks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.app-logo-home {
+  max-width: 45rem;
+  pointer-events: none;
+  margin-bottom: 3rem;
+}
+
+.app-link {
+  color: #61dafb;
+}
+
+.button {
+  width: 10em;
+  margin: 0.5rem;
+  padding: 0.6em;
+  text-decoration-line: none;
+  border: 2px solid #ddff57;
+  border-radius: 7px;
+  background-color: #ddff57;
+  color: black;
+  word-break: break-word;
+  font-weight: 400;
+  height: 1.25em;
+  font-size: 1.25rem;
+}
+
+.InfoPage {
+  text-align: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 2vmin);
+  color: white;
+  background-color: black;
+}
+
+.CloseButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+}
+
+.CloseIcon {
+  height: 60px !important;
+  width: 60px !important;
+  bottom: 0 !important;
+}
+
+.buttonInfo {
+  display: flex;
+  background-color: red;
+  border-radius: 16px;
+  padding: 0px 10px;
+  height: 55px;
+}

@@ -1,0 +1,40 @@
+/* * {
+  cursor: none !important;
+} */
+
+.alarm-knapp {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  background-color: rgb(204, 0, 0);
+  color: white;
+  font-size: 24px;
+  outline: none;
+  border-radius: 16px;
+  border: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Candara", monospace;
+}
+
+.icon svg {
+  width: 35% !important;
+  height: 35% !important;
+}
+
+.vanlig-knapp {
+  height: 150px;
+  width: 160px;
+  background-color: #0078d7;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border-radius: 16px;
+  border: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Candara", monospace;
+}
